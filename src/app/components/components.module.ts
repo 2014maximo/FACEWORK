@@ -14,6 +14,7 @@ import { LoginComponent } from './PAGES/login/login.component';
     HeaderComponent,
     SliderHomeComponent,
     SliderFrasesHomeComponent,
+    LoginComponent
   ],
   imports: [
     CommonModule
