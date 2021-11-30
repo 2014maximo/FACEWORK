@@ -6,16 +6,22 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
 
 :root {
     --fuente-uno: 'Open Sans Condensed', sans-serif;
     --fuente-dos: 'Alex Brush', cursive;
+    --fuente-tres: 'Shadows Into Light Two', cursive;
 }
 .fuenteUno {
     font-family: var(--fuente-uno);
 }
 .fuenteDos {
     font-family: var(--fuente-dos);
+}
+.fuenteTres {
+    font-family: var(--fuente-tres);
 }
 .fw-3 {
     font-weight: 300 !important;
@@ -47,6 +53,15 @@
 }
 .fs-40{
     font-size: 40px !important;
+}
+.fs-35{
+    font-size: 35px !important;
+}
+.fs-30{
+    font-size: 30px !important;
+}
+.cp {
+    cursor: pointer;
 }
 .drop {
     filter: drop-shadow(0 11px 1px rgba(0, 0, 0, 0.7));

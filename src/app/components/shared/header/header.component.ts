@@ -7,9 +7,33 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  public abrirMenu: string = '';
+  public iconAbrir: boolean = true;
+
+  constructor() {
+    this.inicializarVariables();
+  }
 
   ngOnInit(): void {
   }
+
+  // tslint:disable-next-line: typedef
+  private inicializarVariables(){
+
+  }
+
+  public abreMenu(){
+    this.abrirMenu = 'menu-hamburger-open';
+    this.iconAbrir = false;
+  }
+  public cierreMenu(){
+    this.abrirMenu = 'menu-hamburger-close';
+    this.iconAbrir = true;
+  }
+
+
+
+
+
 
 }
