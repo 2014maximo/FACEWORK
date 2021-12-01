@@ -13,6 +13,18 @@
     --fuente-uno: 'Open Sans Condensed', sans-serif;
     --fuente-dos: 'Alex Brush', cursive;
     --fuente-tres: 'Shadows Into Light Two', cursive;
+    --color-uno: #f6921e;
+    --color-dos:#262626;
+    --color-tres:#24a9df;
+    --color-cuatro:#8bc53f;
+    --color-cinco:#ed4036;
+    --color-seis: #c18de2;
+    --color-siete: #c3c1cf;
+    --color-ocho: #a1b0a0;
+    --color-nueve: #5ba8db;
+    --color-dark-uno: #2a2d3e;
+    --color-dark-dos: #002451;
+    --color-dark-tres:#3a0000;
 }
 .fuenteUno {
     font-family: var(--fuente-uno);
@@ -47,9 +59,55 @@
 .transparenciaUno {
     background: rgba(0,0,0,0.3) !important;
 }
+.transparenciaDos {
+    background: rgba(0,0,0,0.7) !important;
+}
 /* MARGEN */
 .mab-5{
     margin-bottom: 5rem;
+}
+.t1 {
+    color: var(--color-uno) 
+   /* NARANJA */
+}
+.t2{
+    color: var(--color-dos) 
+   /* NEGRO */
+}
+.t3{
+    color: var(--color-tres) 
+   /* AZUL CLARO */
+}
+.t4{
+    color: var(--color-cuatro) 
+   /* VERDE CLARO */
+}
+.t5{
+    color: var(--color-cinco) 
+   /* ROJO */
+}
+.t5-h::hover{
+    color: var(--color-cinco) 
+   /* ROJO */
+}
+.t6{
+    color: var(--color-seis) 
+   /* VIOLETA */
+}
+.t7{
+    color: yellow;
+}
+.t8{
+    color: var(--color-siete);
+   /* GRIS */
+}
+.t9{
+    color: var(--color-ocho);
+   /* GRIS VERDOSO */
+}
+.t10{
+    color: var(--color-nueve);
+   /* AZUL CLARO OTRO TONO */
 }
 .fs-40{
     font-size: 40px !important;
