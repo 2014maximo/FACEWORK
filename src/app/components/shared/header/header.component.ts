@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -9,8 +10,9 @@ export class HeaderComponent implements OnInit {
 
   public abrirMenu: string = '';
   public iconAbrir: boolean = true;
+  public returnHome: string = '';
 
-  constructor() {
+  constructor(private route: ActivatedRoute) {
     this.inicializarVariables();
   }
 
@@ -19,6 +21,15 @@ export class HeaderComponent implements OnInit {
 
   // tslint:disable-next-line: typedef
   private inicializarVariables(){
+
+    // tslint:disable-next-line: prefer-const
+    let path = this.route.snapshot.url.join('/');
+
+    if (path !== 'home'){
+      this.returnHome = 'home';
+    }else{
+      this.returnHome = '';
+    }
 
   }
 
