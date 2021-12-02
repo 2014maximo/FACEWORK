@@ -5,6 +5,8 @@ import { HeaderComponent } from './shared/header/header.component';
 import { SliderHomeComponent } from './shared/slider-home/slider-home.component';
 import { SliderFrasesHomeComponent } from './shared/slider-frases-home/slider-frases-home.component';
 import { LoginComponent } from './PAGES/login/login.component';
+import { InicioComponent } from './PAGES/inicio/inicio.component';
+import { DemoComponent } from './PAGES/demo/demo.component';
 
 
 
@@ -14,7 +16,9 @@ import { LoginComponent } from './PAGES/login/login.component';
     HeaderComponent,
     SliderHomeComponent,
     SliderFrasesHomeComponent,
-    LoginComponent
+    LoginComponent,
+    InicioComponent,
+    DemoComponent
   ],
   imports: [
     CommonModule
