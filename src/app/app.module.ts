@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { ComponentsModule } from './components/components.module';
 import { ROUTES } from './app.routes';
 import { RouterModule } from '@angular/router';
+import { FormOneComponent } from './components/ASK/form-one/form-one.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormOneComponent
   ],
   imports: [
     BrowserModule,
