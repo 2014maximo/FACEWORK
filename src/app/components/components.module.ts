@@ -7,6 +7,7 @@ import { SliderFrasesHomeComponent } from './shared/slider-frases-home/slider-fr
 import { LoginComponent } from './PAGES/login/login.component';
 import { InicioComponent } from './PAGES/inicio/inicio.component';
 import { DemoComponent } from './PAGES/demo/demo.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -21,7 +22,9 @@ import { DemoComponent } from './PAGES/demo/demo.component';
     DemoComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   exports: [
     HomeComponent
